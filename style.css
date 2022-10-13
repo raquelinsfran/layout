@@ -1,0 +1,97 @@
+body {
+    font-family: helvetica, 'Times New Roman', Times, serif, sans-serif;
+}
+
+h1 {
+    color: #3a241d;
+    text-align: center;
+  }
+
+  #OfertasEspeciales {
+    color: blue; 
+  }
+
+  #TemporadaPrimavera {
+    color: pink;
+    text-align: left;
+  }
+
+  #tablero-izquierdo{
+    width: 25%;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+    left: 0px;
+  }
+  
+  #tablero-derecho {
+    width: 25%;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+    right: 0px;
+  }
+
+
+    .contenedor {
+        position: relative;
+        height: 8%;
+       }
+      
+      .contenedor2 {
+        position: relative;
+        height: 20%;
+        left: -10px;
+      }
+      
+      .reducido {
+        height: 4%;
+      }
+      
+      .componente {
+        position: absolute;
+        max-width: 100%;
+        max-height: 130%;
+        z-index: 3;
+      }
+      
+      .producto {
+        position: absolute;
+        max-width: 200%;
+        max-height: 200%;
+        z-index: 2;
+      }
+      .layout {
+        height: 80%;
+        width: 45%;
+        border: 2px solid #3a241d;
+        border-radius: 1rem;
+        position: absolute;
+        opacity: 0.5;
+        z-index: 1;
+        margin: auto;
+        left: 0px;
+        right: 0px;
+      }
+      
+      .rotulo {
+        width: 45%;
+        height: 5%;
+        background: #C4D7E0;
+        position: absolute;
+        opacity: 0.7;
+        z-index: 1;
+        margin: auto;
+        left: 0px;
+        right: 0px;
+        border-radius: 1em 1rem 0px 0px;
+        text-align: center;
+        color: #3a241d;
+      }
+      
+      .titulo {
+        position: relative;
+        display: inline;
+        top: 0.5rem;
+      }
+  }
